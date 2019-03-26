@@ -1,0 +1,219 @@
+
+/* social */
+div.soc {
+	padding: .2em .2em .2em .2em;
+}
+
+
+/* link for anchor */
+.custom {
+	width: 8em !important;
+}
+
+.anchor{
+	display:block;
+	height:3em; /* this is the height of your header */
+	margin-top:-1em; /* this is again negative value of the height of your header */
+	visibility:hidden;
+}
+
+
+
+/*  IMAGE */
+img#photo{
+	border-radius: 20px; 
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* NAME */
+div#name{
+	font-size: 4em;
+    font-weight: bold;
+    padding-bottom: 0.1em;
+}
+
+div#status{
+	font-size: 2.5em;
+}
+
+div#where{
+	font-size: 1.5em;
+	padding-bottom: 2em;
+}
+
+/* Social */
+.ClasseBtnScoial{
+	color:#000;
+	padding-right: 0.25em
+}
+
+.BntCV{
+	padding: 0.1em; 
+	background-color: #000; 
+	display: inline-block; 
+	border-radius: 10px;
+	/*font-size: 1.2em; 
+	vertical-align: super;*/
+}
+
+li.CV {
+    margin-left: 4em;
+}
+
+
+/*   EDUCATION   */
+
+p.current {
+    margin-left: 1em;
+    font-size: x-large;
+}
+
+p.edu_title {
+    font-weight: bold;
+    margin-bottom: 0.0em;
+    font-size: medium;
+
+}
+
+p.edu_where {
+    margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+/* -----------------------------*/
+
+/* Education Timeline */
+h4.timeline-title {
+    font-weight: bold;
+}
+
+/*  Color of the Date in Education*/
+small.text-muted {
+    color: #525050;
+}
+
+
+/* Bio */
+p.bioDescrEdu{
+	text-align: justify;
+}
+
+
+
+/* Publications */
+
+p#counter {
+    font-weight: normal;
+}
+
+.panel-body {
+    padding-bottom: 15px !important;
+}
+
+
+h3.publicationsYear {
+	font-size: x-large;
+	margin-bottom: 0.5em;
+}
+
+p.papertitle { font-size: 1em; 
+	font-weight: bold;
+	margin-bottom: 0.1em; 
+	margin-top: 1em;
+}
+
+p.paperkind{
+    display: inline;
+    padding: 0.3em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;	
+    margin-bottom: 1em;
+}
+
+p.paperkind.conference{
+	background-color: #5cb85c;
+}
+
+p.paperkind.workshop{
+	background-color: #f0ad4e;
+}
+
+p.paperkind.journal{
+	background-color: #337ab7;
+}
+
+
+
+
+p.paperauthors { margin-bottom: 0.1em;
+}
+
+p.paperdesc {
+	font-style: italic; 
+	margin-bottom: 0em; 
+}	
+
+p.abstract {	font-weight: bold;
+margin-bottom: 0.1em; 
+margin-top: 1em;
+}
+
+p.abstractDesc { 
+	margin-bottom: 0em; 
+	text-align: justify;
+	font-size: small;
+}
+
+
+b.me {   font-weight: inherit;
+	text-decoration: underline;
+}	
+
+
+/* Talks */
+p.talkDate {   
+	margin-bottom: 0em; 
+	font-weight: bolder;
+}
+p.talkDesc {   
+	margin-bottom: 0em; 
+}	
+p.talkPlace {
+	font-style: italic;
+	margin-bottom: 0.5em; 
+}
+
+/* Grants */
+p.grantDate {   
+	margin-bottom: 0em; 
+	font-weight: bolder;
+
+}	
+p.grantDesc {
+	margin-bottom: 0em; 
+}
+
+p.grantProvided {
+	margin-bottom: 0.5em;
+	font-style: italic;  
+}
+
+/* RESOURCES */
+p.resLink {   
+	margin-bottom: 0em; 
+}	
+p.resDesc {
+	margin-bottom: 0.5em; 
+}
+
