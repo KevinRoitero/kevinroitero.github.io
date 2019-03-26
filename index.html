@@ -16,14 +16,12 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link href="css/navbar-fixed-top.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		
-		<!-- JS 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
-		
 
 	</head>
 	<body>
+		<div id="preloader">
+  			<div id="stats">&nbsp;</div>
+		</div>
 		<span class="anchor" id="init"></span>
 		<!-- Fixed navbar -->
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -44,9 +42,7 @@
 						<li><a href="#publications">Publications</a></li>
 						<li><a href="#talks">Talks</a></li>
 						<li><a href="#grants">Honors and Awards</a></li>
-						<!--<li><a href="#research">Research</a></li> -->
 						<li><a href="#teaching">Teaching</a></li>
-						<!-- <li><a href="#resources">Resources</a></li> -->
 						<li><a href="#contacts">Contacts</a></li>
 						<li class='CV'><a href="resources/One_Page_CV.pdf" download style="font-weight: bolder;">Download CV</a></li>
 					</ul>
@@ -57,7 +53,6 @@
 		<!-- Parte BIO  -->
 		<div class="container">
 			<div class="row">
-
 				<div class="col-lg-3 col-md-3 col-sm-3 vcenter">
 					<img id="photo" src="images/personal.jpg" class="img-responsive" alt="Kevin Roitero">
 				</div>
@@ -65,7 +60,6 @@
 					<div id="name">Kevin Roitero</div>
 					<div id="status">Ph.D. Candidate</div>
 					<div id="where">University of Udine	</div>
-
 					<div>
 						<ul class="list-inline idxIcons" style="font-size: 2em;">
 							<!-- Mail -->
@@ -112,69 +106,33 @@
 					</div>
 				</div>
 			</div>
-			<!-- parte timeline education -->
-		<!--
-		<span class="anchor" id="Bio"></span>
-		<div class="container">
-			<div class="page-header">
-				<h1>Bio</h1>
-			</div>
-			<div>
-						<p class="bioDescrEdu">
-							Kevin Roitero took the bachelor degree in computer science at<a href="http://www.uniud.it"> University of Udine</a>. </br>
-							He took his master joint degree in International computer science at <a href="https://www.uniud.it/">University of Udine</a> in collaboration with <a href="https://www.aau.at/en/">Alpen-Adria-University</a> of Klagenfurt, with final grade 110/110 cum laude.
-							He presented a <a href="resources/MS_TH_short.pdf" download>Master Thesis</a> on using fewer topics in the effectiveness evaluation of Information Retrieval systems.
-						</p>
-						<p class="bioDescrEdu">
-							He currently is a Ph.D. Candidate in Computer Science at the University of Udine under the supervision of Prof. <a href="http://users.dimi.uniud.it/~stefano.mizzaro/">Stefano Mizzaro</a>.
-						</p>
-						<p>
-							His Research interests include : 
-							<ul>
-							  <li>Information Retrieval.</li>
-							  <li>Crowdsourcing</li>
-							  <li>Artificial Intelligence and Machine Learning</li>
-							  <li>Data mining and Analysis.</li>
-							</ul>
-						</p>
-						<p>
-							Here you can Download Kevin Roitero's <a href="/One_Page_CV.pdf?dl=0resources/One_Page_CV.pdf" download>Curriculum Vitae</a>.
-						</p>
-					</div>
-
-			</div>
-		-->
 		<!-- parte timeline education -->
 		<span class="anchor" id="education"></span>
 		<div class="container">
 			<div class="page-header">
 				<h1>Education &amp Positions</h1>
 			</div>
-			
 			<!-- current Position -->
 			<div> 
 				<div>
 					<h2>Current Position</h2> 
 				</div>
-				<!-- <div>
-					<p  class='current'> PhD student at University of Udine, Udine (UD), Italy. </p>
-				</div> -->
 				<div>
-						<table class="table">
-				  			<tbody>
-						  <!--  current  -->
-		 					<tr>
-							    <td class="col-md-2">
-							    	<p class='edu_date'> November 2016 - Today </p>
-							    </td>
-							    <td>
-							    	<p class='edu_title'> PhD Candidate. </p>
-							        <p class='edu_where'>  <a href="http://www.uniud.it"> University of Udine</a>, Udine (UD), Italy.   </p>
-							      	<p class='edu_descr'>  </p>
-							    </td>
-							  </tr>
-						  <tr>
-						  </tbody></table>
+					<table class="table">
+			  			<tbody>
+					  <!--  current  -->
+	 					<tr>
+						    <td class="col-md-2">
+						    	<p class='edu_date'> November 2016 - Today </p>
+						    </td>
+						    <td>
+						    	<p class='edu_title'> PhD Candidate. </p>
+						        <p class='edu_where'>  <a href="http://www.uniud.it"> University of Udine</a>, Udine (UD), Italy.   </p>
+						      	<p class='edu_descr'>  </p>
+						    </td>
+						  </tr>
+					  <tr>
+					  </tbody></table>
 
 					</div>
 				</br>
@@ -300,18 +258,6 @@
 						Publications on <a href="https://www.semanticscholar.org/author/Kevin-Roitero/3445334">Semantic Scholar</a>.
 					</li>
 				</ul>
-			</div>
-			<div>
-				<p id = 'counter'> </p>
-				<!--<script>
-				function UpdateCounters() {
-					lungh_journal = $('div.paperJournal').length;
-					lungh_conf = $('div.paperConf').length;
-					tot = lungh_journal+lungh_conf
-					
-					document.getElementById("counter").innerHTML = "I have published "+tot+" Papers: "+lungh_journal+" on Journals and "+lungh_conf+" on Conferences.";
-				}
-				</script> -->
 			</div>
 			<div>
 				<h3 class="publicationsYear">2019</h3>
@@ -536,30 +482,6 @@
 				</ul>
 			</div>
 		</div>
-
-		<!--parte research -->
-		<!--
-		<span class="anchor" id="research"></span>
-		<div class="container">
-			<div class="page-header">
-				<h1>Research</h1>
-			</div>
-			<div>
-				My main topics of interest are: 
-				<ul>
-				  <li>Information retrieval, , , , and statistical modeling..</li>
-				  <li>crowd-sourcing.</li>
-				  <li>machine and transfer learning.</li>
-				  <li>Data mining and Analysis.</li>
-				</ul>
-			</div>
-			<br>
-			<div>
-				Looking for thesis, projects, collarborations? write me an <a href="mailto:roitero.kevin@spes.uniud.it">email</a>.
-			</div>
-		</div>
-		-->
-
 		<!--parte teaching -->
 		<span class="anchor" id="teaching"></span>
 		<div class="container">
@@ -584,62 +506,6 @@
 				</tr></tbody></table>
  			</div>
 		</div>
-
-		<!--parte respurces  -->
-		<!--<span class="anchor" id="resources"></span>
-		<div class="container">
-			<div class="page-header">
-				<h1>Resources</h1>
-			</div>
-			
-			<div>
-				Here you can find some useful resources: 
-				<ul>
-	  				<li>
-	  					<p class='resLink'> <a href="http://users.dimi.uniud.it/~stefano.mizzaro/dida/come-non-scrivere-la-tesi.html"> "Come (non) si scrive la tesi"</a> - Stefano Mizzaro. (in Italian).</p>
-	  					<p class='resDesc'> An excellent guide about writing (not only the thesis). </p>
-	  				</li> 
-					<li>
-						<p class='resLink'> <a href="https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf">"The Elements of Style"</a> - William Strunk Jr. and E. B. White. (English).</p>
-						<p class='resDesc'>An excellent guide about writing. </p>
-					</li>
-					<li>
-						<p class='resLink'> <a href="http://www.springer.com/us/book/9781447166382">"Writing for Computer Science"</a> - Justin Zobel. (English).</p>
-						<p class='resDesc'>Extensive guidance on writing and presentation skills for researchers and practitioners in the field of Computer Science. </p>
-					</li>
-					<li>
-						<p class='resLink'> <a href="https://www.wolframalpha.com/">Wolfram Alpha</a>.</p>
-	  					<p class='resDesc'>A Computational Knowledge Engine.</p>
-	  				</li> 
-	  				<li>
-	  					<p class='resLink'> <a href="http://www.tablesgenerator.com/">Tables Generator</a>.</p>
-	  					<p class='resDesc'>A Website for generating tables.</p>
-	  				</li>
-					<li>
-						<p class='resLink'> <a href="https://www.overleaf.com/">Overleaf</a>.</p>
-	  					<p class='resDesc'>A Website for collaborative Writing and Publishing documents.</p>
-	  				</li>
-	  				<li>
-	  					<p class='resLink'> <a href="https://www.continuum.io/downloads">Anaconda</a>.</p>
-	  					<p class='resDesc'>  An open data science platform powered by Python.</p>
-	  				</li>
-	  				<li>
-	  					<p class='resLink'> <a href="https://jupyter.readthedocs.io/en/latest/install.html">Jupyter Notebooks (iPython)</a>.</p>
-	  					<p class='resDesc'> An interactive Python environment.</p>
-	  				</li>
-	  				<li>
-	  					<p class='resLink'> <a href="http://setosa.io/ev/">Explained Visually</a>, and  <a href="http://setosa.io/#/">Setosa</a>.</p>
-	  					<p class='resDesc'> Explained Visually (EV) is an experiment in making hard ideas intuitive, Setosa is a blog about interactive and intuitive informations.</p>
-	  				</li>
-	  				<li>
-	  					<p class='resLink'> <a href="http://bay.uchicago.edu/CTAN/graphics/pgf/contrib/pgfgantt/pgfgantt.pdf">Drawing Gantt Charts in LATEX</a>.</p>
-	  					<p class='resDesc'> The pgfgantt package provides the ganttchart environment, which draws a Gantt chart within a TikZ picture.</p>
-	  				</li>	
-				</ul>
-			</div>
-			<br>
-		</div>-->
-
 		<!-- parte contatti -->
 		<span class="anchor" id="contacts"></span>
 		<div class="container">
@@ -674,15 +540,6 @@
 				<div class="col-sm-4 col-md-4 col-lg-4 hidden-sm hidden-xs"><a href="https://www.dimi.uniud.it/dipartimento/informazioni/mappa-del-dipartimento/">
 					<img src="images/map.jpg" class="img-responsive mappa" alt="Map of Rizzi"></a>
 				</div>
-				<!--social 
-				<div class="col-sm-2 col-md-2 col-lg-2">
-					<div class="soc"><a href="mailto:kevin.roitero@outlook.com" class="btn btn-primary btn-xs custom" role="button">Mail</a></div>
-					<div class="soc"><a href="https://twitter.com/KevinRoitero" class="btn btn-primary btn-xs custom" role="button">Twitter</a></div>		
-						
-					<div class="soc"><a href="https://www.facebook.com/Kevin.Roitero.KR#" class="btn btn-primary btn-xs custom" role="button">Facebook</a></div>
-					<div class="soc"><a href="skype:profile_name?kevin.roitero" class="btn btn-primary btn-xs custom" role="button">Skype</a></div>
-					<div class="soc"><a href="https://it.linkedin.com/in/kevin-roitero-3961aab9" class="btn btn-primary btn-xs custom" role="button">LinkedIn</a></div>
-				</div>-->
 				<div class="col-sm-2 col-md-2 col-lg-2">
 						<ul class="list-inline idxIcons" style="font-size: 2em;">
 							<!-- Mail -->
