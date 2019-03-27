@@ -11,7 +11,7 @@
   ga('create', 'UA-87285623-1', 'auto');
   ga('send', 'pageview');
 
-
+*/
   // Select all links with hashes and scroll smooth
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -21,6 +21,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-*/
+
 
 
