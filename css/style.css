@@ -49,10 +49,10 @@ div#where{
 }
 
 .BntCV{
-	padding: 0.1em; 
+	padding: 0.05em; 
 	background-color: #000; 
 	display: inline-block; 
-	border-radius: 10px;
+	border-radius: 0.2em;
 	/*font-size: 1.2em; 
 	vertical-align: super;*/
 }
