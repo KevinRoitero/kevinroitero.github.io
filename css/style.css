@@ -35,6 +35,15 @@ body {
 }
 
 .contienetutto {
-      margin-top: 25em;
+  height: 100vh;
+  border-radius: 0 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  font-weight: bolder;
 
 }
+
+
