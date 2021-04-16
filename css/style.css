@@ -17,6 +17,11 @@ body {
   overflow-x:hidden;
 }
 
+i.cv {
+   content:url(../images/cv.png);
+   height: 1.33em;
+}​
+
 .centerme{
   text-align: center;
 }
