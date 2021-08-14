@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /resources/Kevin-Roitero-CV.pdf
+#Disallow: /resources/Kevin-Roitero-CV.pdf
